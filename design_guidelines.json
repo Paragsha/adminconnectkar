@@ -1,0 +1,160 @@
+{
+  "identity": {
+    "name": "ConnectKar",
+    "tagline": "Your Township, Connected.",
+    "vision": "A closed, verified digital ecosystem for township residents combining the utility of MyGate, the commerce of OLX, and the community of Instagram.",
+    "core_values": [
+      "Trust (Verified Residents Only)",
+      "Hyperlocal (Society-First)",
+      "Convenience (One-Stop Shop)",
+      "Safety (Secure Interactions)"
+    ]
+  },
+  "design_system": {
+    "theme": "light",
+    "typography": {
+      "font_family": {
+        "heading": "Manrope, sans-serif",
+        "body": "Inter, sans-serif",
+        "mono": "JetBrains Mono, monospace"
+      },
+      "scale": {
+        "h1": "text-4xl md:text-5xl font-bold tracking-tight",
+        "h2": "text-3xl md:text-4xl font-bold tracking-tight",
+        "h3": "text-2xl md:text-3xl font-semibold",
+        "body_lg": "text-lg leading-relaxed",
+        "body_base": "text-base leading-relaxed",
+        "caption": "text-sm text-muted-foreground"
+      }
+    },
+    "colors": {
+      "primary": {
+        "DEFAULT": "#0F766E",
+        "foreground": "#FFFFFF",
+        "hover": "#115E59",
+        "light": "#CCFBF1"
+      },
+      "secondary": {
+        "DEFAULT": "#F97316",
+        "foreground": "#FFFFFF",
+        "hover": "#EA580C"
+      },
+      "background": {
+        "DEFAULT": "#F8FAFC",
+        "paper": "#FFFFFF",
+        "subtle": "#F1F5F9"
+      },
+      "status": {
+        "success": "#22C55E",
+        "warning": "#F59E0B",
+        "error": "#EF4444",
+        "info": "#3B82F6"
+      },
+      "text": {
+        "primary": "#0F172A",
+        "secondary": "#64748B",
+        "muted": "#94A3B8"
+      }
+    },
+    "spacing": {
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "section_gap": "gap-8 md:gap-12",
+      "card_padding": "p-4 sm:p-6"
+    },
+    "border_radius": {
+      "card": "rounded-xl",
+      "button": "rounded-lg",
+      "input": "rounded-md"
+    },
+    "shadows": {
+      "card": "shadow-sm hover:shadow-md transition-shadow duration-200",
+      "floating": "shadow-lg shadow-black/5"
+    }
+  },
+  "components": {
+    "cards": {
+      "marketplace": "bg-white border border-border/50 rounded-xl overflow-hidden hover:border-primary/50 transition-all group",
+      "service": "bg-white p-6 rounded-xl border border-border shadow-sm hover:shadow-md hover:-translate-y-1 transition-all",
+      "community": "bg-gradient-to-br from-white to-slate-50 border border-border rounded-xl p-5"
+    },
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 rounded-lg font-medium transition-colors shadow-sm",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/90 h-10 px-4 py-2 rounded-lg font-medium transition-colors shadow-sm",
+      "outline": "border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-lg transition-colors",
+      "ghost": "hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-lg transition-colors"
+    },
+    "badges": {
+      "verified": "inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-700 border border-emerald-200",
+      "pending": "inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-700 border border-amber-200",
+      "society": "inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-slate-100 text-slate-600"
+    },
+    "inputs": {
+      "default": "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    }
+  },
+  "layouts": {
+    "dashboard": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[minmax(180px,auto)]",
+    "marketplace_grid": "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6"
+  },
+  "assets": {
+    "images": {
+      "hero": {
+        "community_gathering": "https://images.unsplash.com/photo-1758275557784-39516582a05d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwzfHxjb21tdW5pdHklMjBwYXJrJTIwZ2F0aGVyaW5nJTIwZGl2ZXJzZSUyMHBlb3BsZSUyMGhhcHB5fGVufDB8fHx8MTc3NDEwMzI1OHww&ixlib=rb-4.1.0&q=85",
+        "apartment_exterior": "https://images.unsplash.com/photo-1771287490603-fbf9b6211cc3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb20lMjBicmlnaHR8ZW58MHx8fHwxNzc0MTAzMjU2fDA&ixlib=rb-4.1.0&q=85"
+      },
+      "categories": {
+        "vehicles": "https://images.unsplash.com/photo-1710079230507-f07eadefabb5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsdXh1cnklMjBjYXIlMjBzaWRlJTIwdmlldyUyMHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzQxMDMyNTV8MA&ixlib=rb-4.1.0&q=85",
+        "property": "https://images.unsplash.com/photo-1758548157747-285c7012db5b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb20lMjBicmlnaHR8ZW58MHx8fHwxNzc0MTAzMjU2fDA&ixlib=rb-4.1.0&q=85",
+        "furniture": "https://images.unsplash.com/photo-1682418460482-4554cced7be9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBzb2ZhJTIwZnVybml0dXJlJTIwd2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3NDEwMzI1Nnww&ixlib=rb-4.1.0&q=85",
+        "electronics": "https://images.unsplash.com/photo-1623679072629-3aaa0192a391?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NjV8MHwxfHNlYXJjaHwyfHxsYXB0b3AlMjBvbiUyMGRlc2slMjBtb2Rlcm4lMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzc0MTAzMjU3fDA&ixlib=rb-4.1.0&q=85",
+        "food": "https://images.unsplash.com/photo-1672477179695-7276b0602fa9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwxfHxob21lJTIwY29va2VkJTIwaW5kaWFuJTIwdGhhbGklMjBmb29kJTIwdGlmZmlufGVufDB8fHx8MTc3NDEwMzI2MXww&ixlib=rb-4.1.0&q=85",
+        "classes": "https://images.unsplash.com/photo-1758274526087-9cd4077e0cf6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHw0fHx5b2dhJTIwY2xhc3MlMjBncm91cCUyMG91dGRvb3IlMjBwYXJrfGVufDB8fHx8MTc3NDEwMzI1OXww&ixlib=rb-4.1.0&q=85"
+      },
+      "avatars": [
+        "https://images.unsplash.com/photo-1669829528850-959d7b08278b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHNtaWxpbmclMjBuZXV0cmFsJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzQxMDMyNjJ8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1669659033487-203d254e35a4?crop=entropy&cs=srgb\u0026fm=jpg\u0026ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHNtaWxpbmclMjBuZXV0cmFsJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NzQxMDMyNjJ8MA\u0026ixlib=rb-4.1.0\u0026q=85"
+      ]
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "Stroke width 1.5px or 2px, consistent sizing (w-4 h-4 for small, w-5 h-5 for medium, w-6 h-6 for large)"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install framer-motion if not already present: yarn add framer-motion",
+    "Use 'Manrope' for all headings to give a modern, friendly, yet trusted feel.",
+    "Use 'Inter' for body text to ensure maximum readability for lists and descriptions.",
+    "Implement the 'Verification' flow strictly. Users without verification cannot access the main dashboard (or have read-only access).",
+    "The 'Home' page should use a 'Bento Grid' layout to show the most important categories (Vehicles, Marketplace, Events) at a glance.",
+    "Use the specific image URLs provided for category placeholders and demo data.",
+    "Ensure the mobile experience is flawless - bottom navigation is mandatory for mobile views.",
+    "Use the primary color (#0F766E) for primary actions and the secondary color (#F97316) for urgent actions (like 'Sell Item' or 'Alert').",
+    "Add 'data-testid' to all interactive elements for testing.",
+    "Do NOT use gradients for backgrounds. Use clean solid colors or subtle patterns/textures if absolutely necessary, but prioritize clean whitespace.",
+    "Shadcn UI components are preferred. Customize them using the Tailwind classes provided in the 'components' section.",
+    "For .js files, ensure you are importing React and other hooks correctly. Do not use TypeScript syntax.",
+    "Create a 'Layout' component that handles the responsive navigation (Top bar desktop / Bottom bar mobile)."
+  ],
+  "universal_guidelines": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚 for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use 'sonner' for toasts. Sonner component are located in /app/src/components/ui/sonner.tsx"
+  ]
+}
