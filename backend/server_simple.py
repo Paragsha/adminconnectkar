@@ -5,10 +5,6 @@ import os
 import logging
 from pathlib import Path
 
-# ConnectKar Backend
-# Firebase operations (Auth, Firestore, Storage) are handled client-side using Firebase SDK
-# This backend can be extended with Admin SDK when a service account key is provided
-
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
 
@@ -22,12 +18,12 @@ async def root():
     return {
         "message": "ConnectKar API", 
         "status": "active",
-        "info": "Firebase operations (Auth, Firestore, Storage) handled client-side"
+        "note": "Firebase operations (auth, Firestore, storage) are handled client-side using Firebase SDK"
     }
 
 @api_router.get("/health")
 async def health():
-    return {"status": "healthy", "service": "connectkar-backend"}
+    return {"status": "healthy"}
 
 # Include the router in the main app
 app.include_router(api_router)
